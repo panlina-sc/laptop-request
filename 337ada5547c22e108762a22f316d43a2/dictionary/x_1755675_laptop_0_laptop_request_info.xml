@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="72909ca547ca2e108762a22f316d4347" label="Laptop Request Info" max_length="40" name="x_1755675_laptop_0_laptop_request_info" type="collection">
+        <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element label="Outbound Date" max_length="40" name="outbound_date" type="glide_date"/>
+        <element label="Requirements" max_length="40" name="requirements" type="string"/>
+        <element label="Model" max_length="32" name="model" reference="x_1755675_laptop_0_laptop_inventory" type="reference"/>
+        <element label="Assigner" max_length="32" name="assigner" reference="sys_user" type="reference"/>
+        <element label="Specifications" max_length="40" name="specifications" type="string"/>
+        <element label="Serial Number" max_length="40" name="serial_number" type="string"/>
+        <element default="inbound" display="true" label="Outbound Status" max_length="40" name="outbound_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Prepared" sequence="1" value="prepared"/>
+                <element inactive_on_update="false" label="Inbound" sequence="0" value="inbound"/>
+                <element inactive_on_update="false" label="Already" sequence="2" value="already"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assigner"/>
+        </index>
+        <index name="index2">
+            <element name="manager"/>
+        </index>
+        <index name="index3">
+            <element name="model"/>
+        </index>
+    </element>
+</database>

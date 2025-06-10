@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function onCancel() {
+GlideDialogWindow.get().destroy();
+return false;
+} 
+
+function onSubmit() {
+var data = gel('notes').value;
+var sysId = gel('task_sys_id');
+var app = new GlideRecord("incident");
+if(app.get(sysId)){
+app.description = data;
+app.update();
+}
+window.open('/incident.do?sys_id='+sysId);
+}]]></client_script>
+        <description>Confirm laptop was outbounded</description>
+        <direct>false</direct>
+        <endpoint>x_1755675_laptop_0_confirm_page.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<g:ui_form>
+<g:evaluate var="jvar_sysid" expression="RP.getWindowProperties().sysid"/> 
+<table style="width:200px">
+	<input type="hidden" id="document_id" name="document_id" value="${sysparm_document_id}" />
+	<input type="hidden" id="table_id" name="table_id" value="${sysparm_table}" />
+	<input type="hidden" id="table_name" name="table_name" value="dms_document" />
+	<input type="hidden" id="generated_by" name="generated_by" value="user" />
+	<input type="hidden" id="user" name="user" />
+	<input type="hidden" id="generated_byy" name="generated_byy" value="group" />
+	<input type="hidden" id="group" name="group" />
+	<br/>
+	<tr>
+		<td>
+			<label for="name">Please choice</label>
+		</td>
+		<td>
+			<select id="outbound_choices">
+				<option value ="">--none--</option>
+				<option value="inbound">Inbound</option>
+				<option value="prepared">Prepared</option>
+				<option value="already">Already</option>
+			</select>
+		</td>
+	</tr>
+	<tr><td><br/></td></tr>
+	<tr>
+		<td colspan="2">
+			<g:dialog_buttons_ok_cancel cancel="return onCancel();" ok="return onSubmit();"/>
+			<input type="hidden" id="task_sys_id" name="task_sys_id" value="${jvar_sysid}"/>
+		</td>
+	</tr>
+</table>
+</g:ui_form>
+</j:jelly>]]></html>
+        <name>confirm_page</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-10 01:14:12</sys_created_on>
+        <sys_id>dbbf94ad474e2e108762a22f316d4330</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>confirm_page</sys_name>
+        <sys_package display_value="Laptop Request" source="x_1755675_laptop_0">337ada5547c22e108762a22f316d43a2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</sys_scope>
+        <sys_update_name>sys_ui_page_dbbf94ad474e2e108762a22f316d4330</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-10 02:31:43</sys_updated_on>
+    </sys_ui_page>
+</record_update>

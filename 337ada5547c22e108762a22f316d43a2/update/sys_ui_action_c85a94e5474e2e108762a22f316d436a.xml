@@ -33,7 +33,7 @@
         <script><![CDATA[function exportPDF() {
 var sysparm_table = g_form.getTableName();
 var sysparm_sys_id = g_form.getUniqueValue().toString();
-var link='https://dev348848.service-now.com/';           // Replace with your Instance url
+var link='https://dev271823.service-now.com/';           // Replace with your Instance url
 var url = link+sysparm_table + '.do?PDF&sys_id=' + sysparm_sys_id;
 g_navigation.openPopup(url);
 
@@ -48,7 +48,7 @@ g_navigation.openPopup(url);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c85a94e5474e2e108762a22f316d436a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Download PDF</sys_name>
         <sys_overrides/>
         <sys_package display_value="Laptop Request" source="x_1755675_laptop_0">337ada5547c22e108762a22f316d43a2</sys_package>
@@ -56,7 +56,7 @@ g_navigation.openPopup(url);
         <sys_scope display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</sys_scope>
         <sys_update_name>sys_ui_action_c85a94e5474e2e108762a22f316d436a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-10 00:54:43</sys_updated_on>
+        <sys_updated_on>2025-06-11 13:36:26</sys_updated_on>
         <table>x_1755675_laptop_0_laptop_request_info</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

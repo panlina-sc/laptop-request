@@ -2,19 +2,24 @@
     <sys_ui_page action="INSERT_OR_UPDATE">
         <category>general</category>
         <client_script><![CDATA[function onCancel() {
-GlideDialogWindow.get().destroy();
-return false;
+	GlideModal.get().destroy();
+	return false;
 } 
 
 function onSubmit() {
-var data = gel('notes').value;
-var sysId = gel('task_sys_id');
-var app = new GlideRecord("incident");
-if(app.get(sysId)){
-app.description = data;
-app.update();
+	alert('aaaa' + g_form.getDisplayValue('model'));
+	var infos = new GlideAjax('GetSpecificationInfo');
+	infos.addParam('sysparm_name', 'getInfos');
+	infos.addParam('sysparm_model', g_form.getDisplayValue('model'));
+	alert('aaaa' + g_form.getDisplayValue('model'));
+    infos.getXML(returnInfos);
+	GlideModal.get().destroy();
+	return false;
 }
-window.open('/incident.do?sys_id='+sysId);
+function returnInfos(response) {
+	var ret = response.responseXML.documentElement.getAttribute('answer');
+	g_form.clearValue('specifications');
+	g_form.setValue('specifications', ret);
 }]]></client_script>
         <description>Confirm laptop was outbounded</description>
         <direct>false</direct>
@@ -23,26 +28,10 @@ window.open('/incident.do?sys_id='+sysId);
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
 <g:ui_form>
 <g:evaluate var="jvar_sysid" expression="RP.getWindowProperties().sysid"/> 
-<table style="width:200px">
-	<input type="hidden" id="document_id" name="document_id" value="${sysparm_document_id}" />
-	<input type="hidden" id="table_id" name="table_id" value="${sysparm_table}" />
-	<input type="hidden" id="table_name" name="table_name" value="dms_document" />
-	<input type="hidden" id="generated_by" name="generated_by" value="user" />
-	<input type="hidden" id="user" name="user" />
-	<input type="hidden" id="generated_byy" name="generated_byy" value="group" />
-	<input type="hidden" id="group" name="group" />
-	<br/>
+<table style="width:450px">
 	<tr>
 		<td>
-			<label for="name">Please choice</label>
-		</td>
-		<td>
-			<select id="outbound_choices">
-				<option value ="">--none--</option>
-				<option value="inbound">Inbound</option>
-				<option value="prepared">Prepared</option>
-				<option value="already">Already</option>
-			</select>
+			<h4>Confirm whether to get specifications for this laptop?</h4>
 		</td>
 	</tr>
 	<tr><td><br/></td></tr>
@@ -61,13 +50,13 @@ window.open('/incident.do?sys_id='+sysId);
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-10 01:14:12</sys_created_on>
         <sys_id>dbbf94ad474e2e108762a22f316d4330</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>confirm_page</sys_name>
         <sys_package display_value="Laptop Request" source="x_1755675_laptop_0">337ada5547c22e108762a22f316d43a2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</sys_scope>
         <sys_update_name>sys_ui_page_dbbf94ad474e2e108762a22f316d4330</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-10 02:31:43</sys_updated_on>
+        <sys_updated_on>2025-06-11 14:29:28</sys_updated_on>
     </sys_ui_page>
 </record_update>

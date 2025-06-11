@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Laptop Request">0206a04ec3ca22106a8050e1b401312f</cat_item>
+        <cat_item/>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -42,14 +42,14 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>input_your_requirements</name>
+        <name>requested_for_whom</name>
         <not_available_conversation>false</not_available_conversation>
         <order>300</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Input your Requirements</question_text>
+        <question_text>Requested For whom</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -58,8 +58,8 @@
         <record/>
         <record_producer_table/>
         <reference/>
-        <reference_qual>undefined</reference_qual>
-        <reference_qual_condition>undefined</reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -77,27 +77,27 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-11 14:59:19</sys_created_on>
-        <sys_id>8a182002c30e22106a8050e1b40131a9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Input your Requirements</sys_name>
+        <sys_created_on>2025-06-11 15:17:55</sys_created_on>
+        <sys_id>9b3cac06c30e22106a8050e1b4013129</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Requested For whom</sys_name>
         <sys_package display_value="Laptop Request" source="x_1755675_laptop_0">337ada5547c22e108762a22f316d43a2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</sys_scope>
-        <sys_update_name>item_option_new_8a182002c30e22106a8050e1b40131a9</sys_update_name>
+        <sys_update_name>item_option_new_9b3cac06c30e22106a8050e1b4013129</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-11 15:21:46</sys_updated_on>
+        <sys_updated_on>2025-06-11 15:32:55</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>2</type>
+        <type>6</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
-        <variable_set/>
+        <variable_set display_value="Multi-row Variable Set">42f960c2c30e22106a8050e1b4013101</variable_set>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=8a182002c30e22106a8050e1b40131a9"/>
-    <fx_price action="delete_multiple" query="id=8a182002c30e22106a8050e1b40131a9"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=9b3cac06c30e22106a8050e1b4013129"/>
+    <fx_price action="delete_multiple" query="id=9b3cac06c30e22106a8050e1b4013129"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>8a182002c30e22106a8050e1b40131a9</id>
+        <id>9b3cac06c30e22106a8050e1b4013129</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-11 14:59:19</sys_created_on>
-        <sys_id>b8486402c30e22106a8050e1b40131db</sys_id>
+        <sys_created_on>2025-06-11 15:17:55</sys_created_on>
+        <sys_id>958c6486c30e22106a8050e1b401310a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-11 14:59:19</sys_updated_on>
+        <sys_updated_on>2025-06-11 15:17:55</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>8a182002c30e22106a8050e1b40131a9</id>
+        <id>9b3cac06c30e22106a8050e1b4013129</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-11 14:59:19</sys_created_on>
-        <sys_id>7c486402c30e22106a8050e1b40131da</sys_id>
+        <sys_created_on>2025-06-11 15:17:55</sys_created_on>
+        <sys_id>5d8c6486c30e22106a8050e1b4013109</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-11 14:59:19</sys_updated_on>
+        <sys_updated_on>2025-06-11 15:17:55</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

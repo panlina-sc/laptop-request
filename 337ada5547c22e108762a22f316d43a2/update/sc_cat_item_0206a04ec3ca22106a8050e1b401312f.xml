@@ -65,21 +65,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-11 14:49:34</sys_created_on>
         <sys_id>0206a04ec3ca22106a8050e1b401312f</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Laptop Request</sys_name>
         <sys_package display_value="Laptop Request" source="x_1755675_laptop_0">337ada5547c22e108762a22f316d43a2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</sys_scope>
         <sys_update_name>sc_cat_item_0206a04ec3ca22106a8050e1b401312f</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-06-11 16:22:35</sys_updated_on>
+        <sys_updated_on>2025-06-12 01:49:51</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>24</version>
+        <version>27</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

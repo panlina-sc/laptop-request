@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1755675_laptop_0.GetVariableValueUtils</api_name>
+        <caller_access>2</caller_access>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>GetVariableValueUtils</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var GetVariableValueUtils = Class.create();
+GetVariableValueUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getPreviousValues: function(){
+		gs.error('bbbbbbb');
+        var sysId = this.getParameter('sysparm_sysId');
+        var gr = new GlideRecord('sc_req_item');
+        gr.addQuery('number', sysId);
+        var result ={};
+
+        gr.query();
+        if (gr.next()) {
+            result.question1=gr.variables.choose_a_laptop_type +'';
+            result.question2=gr.variables.who_need_It +'';
+            result.question3=gr.variables.input_your_requirements +'';
+            gs.error('gr.variables===========' + result);
+            return JSON.stringify(result);
+        }else{
+            return 'false';
+        }
+    },
+    type: 'GetVariableValueUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-12 01:47:32</sys_created_on>
+        <sys_id>576c3a06c3c662106a8050e1b40131bc</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>GetVariableValueUtils</sys_name>
+        <sys_package display_value="Laptop Request" source="x_1755675_laptop_0">337ada5547c22e108762a22f316d43a2</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</sys_scope>
+        <sys_update_name>sys_script_include_576c3a06c3c662106a8050e1b40131bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-12 04:48:10</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</application>
+        <file_path/>
+        <instance_id>be93957d1b968a10168f4089bd4bcb4b</instance_id>
+        <instance_name>dev271823</instance_name>
+        <name>sys_script_include_576c3a06c3c662106a8050e1b40131bc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1755675_laptop_0.GetVariableValueUtils&lt;/api_name&gt;&lt;caller_access&gt;2&lt;/caller_access&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;GetVariableValueUtils&lt;/name&gt;&lt;sandbox_callable&gt;true&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var GetVariableValueUtils = Class.create();
+GetVariableValueUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getPreviousValues: function(){
+		gs.error('bbbbbbb');
+        var sysId = this.getParameter('sysparm_sysId');
+        var gr = new GlideRecord('sc_req_item');
+        gr.addQuery('number', sysId);
+        var result ={};
+
+        gr.query();
+        if (gr.next()) {
+            result.question1=gr.variables.choose_a_laptop_type +'';
+            result.question2=gr.variables.who_need_It +'';
+            result.question3=gr.variables.input_your_requirements +'';
+            gs.error('gr.variables===========' + result);
+            return JSON.stringify(result);
+        }else{
+            return 'false';
+        }
+    },
+    type: 'GetVariableValueUtils'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-12 01:47:32&lt;/sys_created_on&gt;&lt;sys_id&gt;576c3a06c3c662106a8050e1b40131bc&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetVariableValueUtils&lt;/sys_name&gt;&lt;sys_package display_value="Laptop Request" source="x_1755675_laptop_0"&gt;337ada5547c22e108762a22f316d43a2&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Laptop Request"&gt;337ada5547c22e108762a22f316d43a2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_576c3a06c3c662106a8050e1b40131bc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-12 04:48:10&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1085615352</payload_hash>
+        <record_name>GetVariableValueUtils</record_name>
+        <reverted_from/>
+        <source>14529b71c34622106a8050e1b401311b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-12 04:48:10</sys_created_on>
+        <sys_id>46f5af02c3ca62106a8050e1b401318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197627789320000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-12 04:48:10</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>caf5af0200ca6210863dabddecbc2a8a</update_guid>
+        <update_guid_history>caf5af0200ca6210863dabddecbc2a8a:1085615352,cd04af4e758a6210a6391694a4658f9b:1240269387,58c36f4e1e8a6210f7b9b23d44271c90:1417118318,11a2a30edf8a62101d100e026448ae75:-1178063554,e7f12bcaab8a621000626bcdf4601642:1417118318,1c71e3ca7b8a62108c0416d99ae34b9f:-1160238798,7511eb8ae88a6210b0175a89b703c839:1417118318,64f02b8a4d8a62102ed081fefc41464e:566866701,a510a34a6d8a621090955db52d18b7fd:1589126608,9f006f0a198a6210af1b31db2acb7035:678958923,10acb2c6f9c662104bb5a538a34f0058:-2028302184</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-12 06:45:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>190fa6fd3fa7434f8352b714d00144e1</sys_id>
+        <sys_metadata>576c3a06c3c662106a8050e1b40131bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetVariableValueUtils</sys_name>
+        <sys_package display_value="Laptop Request" source="x_1755675_laptop_0">337ada5547c22e108762a22f316d43a2</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</sys_scope>
+        <sys_scope_delete display_value="">72f072cbb0984993acc2d234cabea799</sys_scope_delete>
+        <sys_update_name>sys_script_include_576c3a06c3c662106a8050e1b40131bc</sys_update_name>
+        <sys_update_version display_value="sys_script_include_576c3a06c3c662106a8050e1b40131bc">46f5af02c3ca62106a8050e1b401318b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-12 06:45:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

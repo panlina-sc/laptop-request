@@ -3,11 +3,11 @@
         <active>true</active>
         <applies_catalog>true</applies_catalog>
         <applies_extended>false</applies_extended>
-        <applies_req_item>false</applies_req_item>
+        <applies_req_item>true</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Laptop Request">0206a04ec3ca22106a8050e1b401312f</cat_item>
+        <cat_item display_value="Laptop Request For Emp">c808778ac30e62106a8050e1b40131b0</cat_item>
         <cat_variable/>
         <condition/>
         <description/>
@@ -15,7 +15,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>onLoadScreen</name>
+        <name>InitialScreen</name>
         <order/>
         <published_ref/>
         <script><![CDATA[function onLoad() {
@@ -23,34 +23,35 @@
     var urlParams = new URLSearchParams(top.window.location.search);
     var sysId = urlParams.get('req_item_id');
     if (sysId) {
-        var ga = new GlideAjax('GetVariableValueUtils');
+        var ga = new GlideAjax('GetValueUtils');
         ga.addParam('sysparm_name', 'getPreviousValues');
         ga.addParam('sysparm_sysId', sysId);
         ga.getXMLAnswer(getdata);
     }
     function getdata(response) {
         var answer =JSON.parse(response);
-        //alert(response);
-        g_form.setValue('choose_a_laptop_type', answer.question1);
-        g_form.setValue('who_need_It', answer.question2);
-        g_form.setValue('input_your_requirements', answer.question3);
+        alert(answer);
+        g_form.setValue('select_one', answer.question1);
+        g_form.setValue('who', answer.question2);
+        g_form.setValue('input_requirements', answer.question3);
     }
+   
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-06-12 01:35:46</sys_created_on>
+        <sys_created_on>2025-06-12 06:12:58</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>38c97ac2c3c662106a8050e1b4013149</sys_id>
+        <sys_id>9d0977cac30e62106a8050e1b4013109</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>onLoadScreen</sys_name>
+        <sys_name>InitialScreen</sys_name>
         <sys_overrides/>
         <sys_package display_value="Laptop Request" source="x_1755675_laptop_0">337ada5547c22e108762a22f316d43a2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</sys_scope>
-        <sys_update_name>catalog_script_client_38c97ac2c3c662106a8050e1b4013149</sys_update_name>
+        <sys_update_name>catalog_script_client_9d0977cac30e62106a8050e1b4013109</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-12 01:49:51</sys_updated_on>
+        <sys_updated_on>2025-06-12 06:28:45</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

@@ -7,11 +7,11 @@
 } 
 
 function onSubmit() {
-	//alert('aaaa' + g_form.getDisplayValue('model'));
+	alert('aaaa' + g_form.getValue('model'));
 	var infos = new GlideAjax('GetSpecificationInfo');
 	infos.addParam('sysparm_name', 'getInfos');
-	infos.addParam('sysparm_model', g_form.getDisplayValue('model'));
-    infos.getXML(returnInfos);
+	infos.addParam('sysparm_model', g_form.getValue('model'));
+	infos.getXML(returnInfos);
 	GlideModal.get().destroy();
 	return false;
 }
@@ -49,13 +49,13 @@ function returnInfos(response) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-06-10 01:14:12</sys_created_on>
         <sys_id>dbbf94ad474e2e108762a22f316d4330</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>confirm_page</sys_name>
         <sys_package display_value="Laptop Request" source="x_1755675_laptop_0">337ada5547c22e108762a22f316d43a2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</sys_scope>
         <sys_update_name>sys_ui_page_dbbf94ad474e2e108762a22f316d4330</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-11 15:52:57</sys_updated_on>
+        <sys_updated_on>2025-06-13 04:24:27</sys_updated_on>
     </sys_ui_page>
 </record_update>

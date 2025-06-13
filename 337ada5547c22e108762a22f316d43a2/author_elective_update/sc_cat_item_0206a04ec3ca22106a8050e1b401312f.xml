@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow display_value="Laptop Request Approval">eed22686c34662106a8050e1b401315f</flow_designer_flow>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Laptop Request</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>true</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>true</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=0206a04ec3ca22106a8050e1b401312f&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <request_method>request</request_method>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template display_value="AES Standard items in Service Catalog">03302dd377023010f082d599cf5a99ba</sc_template>
+        <short_description>Request a laptop for employees.</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-11 14:49:34</sys_created_on>
+        <sys_id>0206a04ec3ca22106a8050e1b401312f</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Laptop Request</sys_name>
+        <sys_package display_value="Laptop Request" source="x_1755675_laptop_0">337ada5547c22e108762a22f316d43a2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</sys_scope>
+        <sys_update_name>sc_cat_item_0206a04ec3ca22106a8050e1b401312f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-13 01:33:53</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>30</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="DELETE" query="documentkey=0206a04ec3ca22106a8050e1b401312f"/>
+    <fx_price action="DELETE" query="id=0206a04ec3ca22106a8050e1b401312f"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>0206a04ec3ca22106a8050e1b401312f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-11 14:49:34</sys_created_on>
+        <sys_id>ce06a04ec3ca22106a8050e1b4013130</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-11 14:49:34</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</application>
+        <file_path/>
+        <instance_id>be93957d1b968a10168f4089bd4bcb4b</instance_id>
+        <instance_name>dev271823</instance_name>
+        <name>sc_cat_item_0206a04ec3ca22106a8050e1b401312f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item"><sc_cat_item action="INSERT_OR_UPDATE"><access_type>restricted</access_type><active>true</active><availability>on_desktop</availability><billable>false</billable><category/><checked_out/><cost>0</cost><custom_cart/><delivery_plan/><delivery_plan_script/><delivery_time>1970-01-03 00:00:00</delivery_time><description/><display_price_property>non_zero</display_price_property><entitlement_script/><flow_designer_flow display_value="Laptop Request Approval">eed22686c34662106a8050e1b401315f</flow_designer_flow><fulfillment_automation_level>unspecified</fulfillment_automation_level><group/><hide_sp>false</hide_sp><icon/><ignore_price>true</ignore_price><image/><location/><make_item_non_conversational>false</make_item_non_conversational><mandatory_attachment>false</mandatory_attachment><meta/><mobile_hide_price>false</mobile_hide_price><mobile_picture/><mobile_picture_type>use_desktop_picture</mobile_picture_type><model/><name>Laptop Request</name><no_attachment_v2>true</no_attachment_v2><no_cart>false</no_cart><no_cart_v2>true</no_cart_v2><no_delivery_time_v2>true</no_delivery_time_v2><no_order>false</no_order><no_order_now>false</no_order_now><no_proceed_checkout>false</no_proceed_checkout><no_quantity>false</no_quantity><no_quantity_v2>true</no_quantity_v2><no_save_as_draft>false</no_save_as_draft><no_search>false</no_search><no_wishlist_v2>false</no_wishlist_v2><omit_price>false</omit_price><order>0</order><ordered_item_link/><owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner><picture/><preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=0206a04ec3ca22106a8050e1b401312f&amp;sysparm_preview=true", "summary");</preview><price>0</price><published_ref/><recurring_frequency/><request_method>request</request_method><roles/><sc_catalogs/><sc_ic_item_staging/><sc_ic_version/><sc_template display_value="AES Standard items in Service Catalog">03302dd377023010f082d599cf5a99ba</sc_template><short_description>Request a laptop for employees.</short_description><show_variable_help_on_load>false</show_variable_help_on_load><start_closed>false</start_closed><state/><sys_class_name>sc_cat_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-11 14:49:34</sys_created_on><sys_id>0206a04ec3ca22106a8050e1b401312f</sys_id><sys_mod_count>30</sys_mod_count><sys_name>Laptop Request</sys_name><sys_package display_value="Laptop Request" source="x_1755675_laptop_0">337ada5547c22e108762a22f316d43a2</sys_package><sys_policy/><sys_scope display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</sys_scope><sys_update_name>sc_cat_item_0206a04ec3ca22106a8050e1b401312f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-13 01:33:53</sys_updated_on><taxonomy_topic/><template/><template_manager_roles/><type>item</type><use_sc_layout>true</use_sc_layout><vendor/><version>30</version><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><workflow/></sc_cat_item><sys_translated_text action="delete_multiple" query="documentkey=0206a04ec3ca22106a8050e1b401312f"/><fx_price action="delete_multiple" query="id=0206a04ec3ca22106a8050e1b401312f"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price</field><id>0206a04ec3ca22106a8050e1b401312f</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-11 14:49:34</sys_created_on><sys_id>ce06a04ec3ca22106a8050e1b4013130</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-11 14:49:34</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>1063780120</payload_hash>
+        <record_name>Laptop Request</record_name>
+        <reverted_from/>
+        <source>14529b71c34622106a8050e1b401311b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-13 01:33:54</sys_created_on>
+        <sys_id>1a1344eac342e2106a8050e1b4013191</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19766ec09f80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-13 01:33:54</sys_updated_on>
+        <type>Catalog Item</type>
+        <update_guid>9e1344ea9142e21009e1dd65f1114990</update_guid>
+        <update_guid_history>9e1344ea9142e21009e1dd65f1114990:1063780120,33be53c6388a621000d0add3de50e049:1664233983,34678346a10a62108a2b6fa4b6129df5:-926102466,062d7ac643c662105a22a1997fde15c9:1898152295,140a3ec2a6c66210b07ae6cd9862f7f5:-692184154,c4f93ec2dcc662104dd258c21ceef3ea:1012446693,d85b7c0aa64e221019b9406f3c74f4ee:-1577889756,97c47c02ac4e2210882837a7933e7157:126741091,e380b8cada0e221078f35ba8f97bf843:1831371938,8e5074caa00e22106020eb24d1aeb8ad:1854185618,649fecc6d10e221004a37a3459078de0:-521121167,c46f2c4a3b0e2210bd792ddbb33d8959:-1673948197,ae8eac0adb0e2210c4b403c3d63e986a:30682650,ad6da4c6900e22101ad5ceef41435af1:1735313497,c63de0c6ce0e221030b8b47d7949fd29:-855022952,bc2a60c2810e221085be80f35bd1ba74:849607895,d30ae0c2910e2210c778bc21c6ad341a:-1740728554,530a68820a0e221017728ad769ed81a6:-36097707,7b782c02c30e22109f2cfb06329703fd:1668533140,9768a802d10e221085124353a09a498f:-1815125778,c55828022a0e221058d9e1aecd2bfd26:-110494931,b148a402eb0e2210e6144ede55fc0ab8:1880159863,30486402920e221022595a76cf04e0d9:-710176586,ed18eccefdca221075db973aa91caee6:994454261,b418ecce71ca22100a69fbf2c3c2a57f:-1595882188,74c728ce49ca22101aed8f3db7b42c9a:108748659,00c728ce2cca2210ca190e5921638020:1813379506,ad6720ce54ca221039dd043eeba28127:-776956943,a057ac8e57ca221029910220a3ad1432:1869494702,8e06a04ed0ca22102bae34bc5ea2eb40:-206426248,0a06a04ee2ca22108839e05ee1520f37:1443576118</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Laptop Request">521344eac342e2106a8050e1b4013196</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-06-13 01:33:55</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item">sc_cat_item</sys_db_object>
+        <sys_id>51238b1b3090466095fc858ada82c400</sys_id>
+        <sys_metadata>0206a04ec3ca22106a8050e1b401312f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Laptop Request</sys_name>
+        <sys_package display_value="Laptop Request" source="x_1755675_laptop_0">337ada5547c22e108762a22f316d43a2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</sys_scope>
+        <sys_scope_delete display_value="">72f072cbb0984993acc2d234cabea799</sys_scope_delete>
+        <sys_update_name>sc_cat_item_0206a04ec3ca22106a8050e1b401312f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_0206a04ec3ca22106a8050e1b401312f">1a1344eac342e2106a8050e1b4013191</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-06-13 01:33:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

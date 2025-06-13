@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Laptop Request">0206a04ec3ca22106a8050e1b401312f</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-11 15:00:28</sys_created_on>
+        <sys_id>61886c02c30e22106a8050e1b40131f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Laptop Request</sys_name>
+        <sys_package display_value="Laptop Request" source="x_1755675_laptop_0">337ada5547c22e108762a22f316d43a2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_61886c02c30e22106a8050e1b40131f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-11 15:00:28</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</application>
+        <file_path/>
+        <instance_id>be93957d1b968a10168f4089bd4bcb4b</instance_id>
+        <instance_name>dev271823</instance_name>
+        <name>sc_cat_item_catalog_61886c02c30e22106a8050e1b40131f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Laptop Request">0206a04ec3ca22106a8050e1b401312f</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-11 15:00:28</sys_created_on><sys_id>61886c02c30e22106a8050e1b40131f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Laptop Request</sys_name><sys_package display_value="Laptop Request" source="x_1755675_laptop_0">337ada5547c22e108762a22f316d43a2</sys_package><sys_policy/><sys_scope display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</sys_scope><sys_update_name>sc_cat_item_catalog_61886c02c30e22106a8050e1b40131f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-11 15:00:28</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1498451907</payload_hash>
+        <record_name>Service Catalog.Laptop Request</record_name>
+        <reverted_from/>
+        <source>14529b71c34622106a8050e1b401311b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-11 15:00:28</sys_created_on>
+        <sys_id>6d886c02c30e22106a8050e1b40131f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1975f81bff70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-11 15:00:28</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>ad886c02da0e2210fc9241c927aae0f7</update_guid>
+        <update_guid_history>ad886c02da0e2210fc9241c927aae0f7:1498451907</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Laptop Request">8e1344eac342e2106a8050e1b4013100</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-13 01:33:53</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>49b883c480a94f03bc834ad5446be409</sys_id>
+        <sys_metadata>61886c02c30e22106a8050e1b40131f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Laptop Request</sys_name>
+        <sys_package display_value="Laptop Request" source="x_1755675_laptop_0">337ada5547c22e108762a22f316d43a2</sys_package>
+        <sys_parent display_value="">0206a04ec3ca22106a8050e1b401312f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Laptop Request">337ada5547c22e108762a22f316d43a2</sys_scope>
+        <sys_scope_delete display_value="">72f072cbb0984993acc2d234cabea799</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_61886c02c30e22106a8050e1b40131f5</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_61886c02c30e22106a8050e1b40131f5">6d886c02c30e22106a8050e1b40131f8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-13 01:33:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

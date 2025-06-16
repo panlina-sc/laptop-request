@@ -4,13 +4,13 @@
             <element>model</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-06-11 09:00:19</sys_created_on>
-            <sys_id>06169b79c34622106a8050e1b4013189</sys_id>
+            <sys_created_on>2025-06-16 02:00:16</sys_created_on>
+            <sys_id>29e56793c38ee6106a8050e1b40131f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1755675_laptop_0_laptop_request_info" sys_domain="global" view="Default view">1df09869470e2e108762a22f316d43d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-06-11 09:00:19</sys_updated_on>
+            <sys_updated_on>2025-06-16 02:00:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>serial_number</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-06-11 09:00:19</sys_created_on>
-            <sys_id>8a169b79c34622106a8050e1b4013189</sys_id>
+            <sys_created_on>2025-06-16 02:00:16</sys_created_on>
+            <sys_id>25e56793c38ee6106a8050e1b40131fa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1755675_laptop_0_laptop_request_info" sys_domain="global" view="Default view">1df09869470e2e108762a22f316d43d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-06-11 09:00:19</sys_updated_on>
+            <sys_updated_on>2025-06-16 02:00:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>specifications</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-06-11 09:00:19</sys_created_on>
-            <sys_id>02169b79c34622106a8050e1b401318a</sys_id>
+            <sys_created_on>2025-06-16 02:00:16</sys_created_on>
+            <sys_id>a9e56793c38ee6106a8050e1b40131fa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1755675_laptop_0_laptop_request_info" sys_domain="global" view="Default view">1df09869470e2e108762a22f316d43d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-06-11 09:00:19</sys_updated_on>
+            <sys_updated_on>2025-06-16 02:00:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>requirements</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-06-11 09:00:19</sys_created_on>
-            <sys_id>ca169b79c34622106a8050e1b40131af</sys_id>
+            <sys_created_on>2025-06-16 02:00:16</sys_created_on>
+            <sys_id>21e56793c38ee6106a8050e1b40131fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1755675_laptop_0_laptop_request_info" sys_domain="global" view="Default view">1df09869470e2e108762a22f316d43d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-06-11 09:00:19</sys_updated_on>
+            <sys_updated_on>2025-06-16 02:00:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,27 +60,27 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-06-11 09:00:19</sys_created_on>
-            <sys_id>42169b79c34622106a8050e1b40131b0</sys_id>
+            <sys_created_on>2025-06-16 02:00:16</sys_created_on>
+            <sys_id>a5e56793c38ee6106a8050e1b40131fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1755675_laptop_0_laptop_request_info" sys_domain="global" view="Default view">1df09869470e2e108762a22f316d43d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-06-11 09:00:19</sys_updated_on>
+            <sys_updated_on>2025-06-16 02:00:16</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>outbound_status</element>
+            <element>status</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-06-11 09:00:19</sys_created_on>
-            <sys_id>c6169b79c34622106a8050e1b40131b0</sys_id>
+            <sys_created_on>2025-06-16 02:00:16</sys_created_on>
+            <sys_id>2de56793c38ee6106a8050e1b40131fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1755675_laptop_0_laptop_request_info" sys_domain="global" view="Default view">1df09869470e2e108762a22f316d43d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-06-11 09:00:19</sys_updated_on>
+            <sys_updated_on>2025-06-16 02:00:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>outbound_date</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-06-11 09:00:19</sys_created_on>
-            <sys_id>4e169b79c34622106a8050e1b40131b0</sys_id>
+            <sys_created_on>2025-06-16 02:00:16</sys_created_on>
+            <sys_id>a1e56793c38ee6106a8050e1b40131fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1755675_laptop_0_laptop_request_info" sys_domain="global" view="Default view">1df09869470e2e108762a22f316d43d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-06-11 09:00:19</sys_updated_on>
+            <sys_updated_on>2025-06-16 02:00:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>assigner</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-06-11 09:00:19</sys_created_on>
-            <sys_id>c2169b79c34622106a8050e1b40131b1</sys_id>
+            <sys_created_on>2025-06-16 02:00:16</sys_created_on>
+            <sys_id>29e56793c38ee6106a8050e1b40131fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1755675_laptop_0_laptop_request_info" sys_domain="global" view="Default view">1df09869470e2e108762a22f316d43d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-06-11 09:00:19</sys_updated_on>
+            <sys_updated_on>2025-06-16 02:00:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>manager</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-06-11 09:00:19</sys_created_on>
-            <sys_id>4a169b79c34622106a8050e1b40131b1</sys_id>
+            <sys_created_on>2025-06-16 02:00:16</sys_created_on>
+            <sys_id>ade56793c38ee6106a8050e1b40131fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1755675_laptop_0_laptop_request_info" sys_domain="global" view="Default view">1df09869470e2e108762a22f316d43d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-06-11 09:00:19</sys_updated_on>
+            <sys_updated_on>2025-06-16 02:00:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
